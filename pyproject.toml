@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "synthetic-org-kg-generator"
+version = "0.1.0"
+description = "Reproducible W3C ORG datasets and verified reasoning benchmarks"
+requires-python = ">=3.11"
+dependencies = ["rdflib>=7.1,<8", "PyYAML>=6,<7"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+kg-generator = "kg_generator.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["kg_generator*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

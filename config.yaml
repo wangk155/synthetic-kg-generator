@@ -1,0 +1,19 @@
+generator:
+  num_organizations: 10
+  max_depth: 4
+  branching_factor: 3
+  posts_per_unit: 5
+  employees_per_post: 1
+  seed: 42
+  num_graphs: 1
+  reporting_ancestor_window: 1
+
+output:
+  format: turtle
+  directory: output/
+
+evaluation:
+  generate_competency_questions: true
+  questions_per_category: 20
+  generate_ground_truth: true
+  shortage_policy: error

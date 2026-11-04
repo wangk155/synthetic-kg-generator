@@ -1,0 +1,86 @@
+{
+  "average_branching_factor": 2.0,
+  "average_branching_factor_definition": "mean child count among non-leaf organizations and units",
+  "batch_base_seed": 42,
+  "batch_graph_index": 1,
+  "generated_at": "2026-11-04T02:44:35.694735+00:00",
+  "generator_version": "0.1.0",
+  "graph_sha256": "ccf181625165c01de7da775111b55e2cdaa39c1e520914e61c090892fc0b3236",
+  "ground_truth_saved": true,
+  "ground_truth_verified": true,
+  "maximum_hierarchy_depth": 3,
+  "membership_inference": "benchmark rule; no general OWL entailment claim",
+  "num_individuals": 28,
+  "num_organizational_units": 14,
+  "num_organizations": 1,
+  "num_posts": 28,
+  "num_roles": 5,
+  "num_triples": 416,
+  "ontology_profile": "W3C ORG asserted instance forest; schema kept separate",
+  "question_coverage": {
+    "categories": {
+      "R1": {
+        "available": 28,
+        "generated": 3,
+        "requested": 3,
+        "shortfall": 0
+      },
+      "R2": {
+        "available": 12,
+        "generated": 3,
+        "requested": 3,
+        "shortfall": 0
+      },
+      "R3": {
+        "available": 20,
+        "generated": 3,
+        "requested": 3,
+        "shortfall": 0
+      },
+      "R4": {
+        "available": 22,
+        "generated": 3,
+        "requested": 3,
+        "shortfall": 0
+      },
+      "R5": {
+        "available": 28,
+        "generated": 3,
+        "requested": 3,
+        "shortfall": 0
+      },
+      "R6": {
+        "available": 28,
+        "generated": 3,
+        "requested": 3,
+        "shortfall": 0
+      },
+      "R7": {
+        "available": 14,
+        "generated": 3,
+        "requested": 3,
+        "shortfall": 0
+      }
+    },
+    "enabled": true,
+    "shortage_policy": "error"
+  },
+  "questions_sha256": "b2ce10f3ee4b5a7b24e84329ac560dde032db2bba06e14c713a9822b28786dad",
+  "reporting_path_statistics": {
+    "definition": "post-to-terminal-post paths, includes posts with zero reporting edges",
+    "histogram": {
+      "0": 2,
+      "1": 6,
+      "2": 12,
+      "3": 8
+    },
+    "max_edges": 3,
+    "mean_edges": 1.9285714285714286
+  },
+  "runtime_versions": {
+    "python": "3.12.14",
+    "pyyaml": "6.0.3",
+    "rdflib": "7.6.0"
+  },
+  "seed": 42
+}
