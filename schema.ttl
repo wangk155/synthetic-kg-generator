@@ -1,0 +1,9 @@
+@prefix ex: <https://example.org/synthetic-org/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:schema a owl:Ontology ;
+    rdfs:label "Synthetic organization benchmark profile" ;
+    rdfs:seeAlso <https://www.w3.org/TR/vocab-org/> ;
+    rdfs:comment "Instance graphs use standard ORG and FOAF terms. This document adds no inference axioms and does not bundle or import the complete ORG ontology. The ex namespace names synthetic instances; extensions must declare custom predicates here or in a separate module schema." .

@@ -1,0 +1,302 @@
+[
+  {
+    "category": "R1",
+    "category_name": "Direct factual retrieval",
+    "method": {
+      "algorithm": "direct_holders",
+      "version": 1
+    },
+    "question": "Which people explicitly hold the post 'Director org-000001/u0001 P0001'? Return all person URIs.",
+    "question_id": "R1-de66afa610999b2b1fd2",
+    "reasoning_depth": 1,
+    "relevant_entities": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/post-0001"
+    ]
+  },
+  {
+    "category": "R1",
+    "category_name": "Direct factual retrieval",
+    "method": {
+      "algorithm": "direct_holders",
+      "version": 1
+    },
+    "question": "Which people explicitly hold the post 'Manager org-000001/u0001/u0001 P0001'? Return all person URIs.",
+    "question_id": "R1-20dff2c06971666b33fe",
+    "reasoning_depth": 1,
+    "relevant_entities": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/post-0001"
+    ]
+  },
+  {
+    "category": "R1",
+    "category_name": "Direct factual retrieval",
+    "method": {
+      "algorithm": "direct_holders",
+      "version": 1
+    },
+    "question": "Which people explicitly hold the post 'Engineer org-000001/u0002/u0001/u0002 P0002'? Return all person URIs.",
+    "question_id": "R1-3c1b94a4bd2829382e39",
+    "reasoning_depth": 1,
+    "relevant_entities": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002/post-0002"
+    ]
+  },
+  {
+    "category": "R2",
+    "category_name": "Transitive hierarchical reasoning",
+    "method": {
+      "algorithm": "indirect_containment",
+      "version": 1
+    },
+    "question": "Is 'Unit org-000001/u0001/u0001' indirectly contained in 'Organization 000001' via at least two org:subOrganizationOf edges?",
+    "question_id": "R2-ef4b5e75f02128544fe4",
+    "reasoning_depth": 2,
+    "relevant_entities": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001",
+      "https://example.org/synthetic-org/graph-42/org-000001"
+    ]
+  },
+  {
+    "category": "R2",
+    "category_name": "Transitive hierarchical reasoning",
+    "method": {
+      "algorithm": "indirect_containment",
+      "version": 1
+    },
+    "question": "Is 'Unit org-000001/u0001/u0001/u0002' indirectly contained in 'Organization 000001' via at least two org:subOrganizationOf edges?",
+    "question_id": "R2-5beb467394045546ef28",
+    "reasoning_depth": 3,
+    "relevant_entities": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0002",
+      "https://example.org/synthetic-org/graph-42/org-000001"
+    ]
+  },
+  {
+    "category": "R2",
+    "category_name": "Transitive hierarchical reasoning",
+    "method": {
+      "algorithm": "indirect_containment",
+      "version": 1
+    },
+    "question": "Is 'Unit org-000001/u0001/u0002/u0001' indirectly contained in 'Organization 000001' via at least two org:subOrganizationOf edges?",
+    "question_id": "R2-ccd851d21d8c1008ff9c",
+    "reasoning_depth": 3,
+    "relevant_entities": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001",
+      "https://example.org/synthetic-org/graph-42/org-000001"
+    ]
+  },
+  {
+    "category": "R3",
+    "category_name": "Multi-hop reporting",
+    "method": {
+      "algorithm": "reporting_path",
+      "version": 1
+    },
+    "question": "Starting with the post held by 'Robin Lee (org-000001/u0001/u0002/u0001 P0002 E0001)', give the complete ordered post URI path following org:reportsTo to its terminal supervisor post. Include the starting post.",
+    "question_id": "R3-67c3b25450b2b35acd85",
+    "reasoning_depth": 4,
+    "relevant_entities": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001/post-0002/person-0001"
+    ]
+  },
+  {
+    "category": "R3",
+    "category_name": "Multi-hop reporting",
+    "method": {
+      "algorithm": "reporting_path",
+      "version": 1
+    },
+    "question": "Starting with the post held by 'Casey Patel (org-000001/u0002/u0001/u0002 P0001 E0001)', give the complete ordered post URI path following org:reportsTo to its terminal supervisor post. Include the starting post.",
+    "question_id": "R3-60fb2481ebfd228a5a4f",
+    "reasoning_depth": 3,
+    "relevant_entities": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002/post-0001/person-0001"
+    ]
+  },
+  {
+    "category": "R3",
+    "category_name": "Multi-hop reporting",
+    "method": {
+      "algorithm": "reporting_path",
+      "version": 1
+    },
+    "question": "Starting with the post held by 'Alex Patel (org-000001/u0002/u0002/u0001 P0002 E0001)', give the complete ordered post URI path following org:reportsTo to its terminal supervisor post. Include the starting post.",
+    "question_id": "R3-3212c1ef32fc7b57e5cc",
+    "reasoning_depth": 4,
+    "relevant_entities": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001/post-0002/person-0001"
+    ]
+  },
+  {
+    "category": "R4",
+    "category_name": "Common ancestor reasoning",
+    "method": {
+      "algorithm": "closest_common_unit",
+      "version": 1
+    },
+    "question": "What is the closest common parent organizational unit of 'Unit org-000001/u0001/u0001/u0001' and 'Unit org-000001/u0001/u0002/u0002'? Return its URI.",
+    "question_id": "R4-2395bd7a78063dd8c442",
+    "reasoning_depth": 4,
+    "relevant_entities": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001",
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002"
+    ]
+  },
+  {
+    "category": "R4",
+    "category_name": "Common ancestor reasoning",
+    "method": {
+      "algorithm": "closest_common_unit",
+      "version": 1
+    },
+    "question": "What is the closest common parent organizational unit of 'Unit org-000001/u0002/u0001' and 'Unit org-000001/u0002/u0002/u0002'? Return its URI.",
+    "question_id": "R4-16b5faf1766bec24f755",
+    "reasoning_depth": 3,
+    "relevant_entities": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001",
+      "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0002"
+    ]
+  },
+  {
+    "category": "R4",
+    "category_name": "Common ancestor reasoning",
+    "method": {
+      "algorithm": "closest_common_unit",
+      "version": 1
+    },
+    "question": "What is the closest common parent organizational unit of 'Unit org-000001/u0002/u0002/u0001' and 'Unit org-000001/u0002/u0002/u0002'? Return its URI.",
+    "question_id": "R4-d1f398bdeaadcf9b44ce",
+    "reasoning_depth": 2,
+    "relevant_entities": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001",
+      "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0002"
+    ]
+  },
+  {
+    "category": "R5",
+    "category_name": "Cross-relationship reasoning",
+    "method": {
+      "algorithm": "post_owner",
+      "version": 1
+    },
+    "question": "Which organizational unit directly contains the post held by 'Robin Lee (org-000001/u0001/u0002/u0001 P0002 E0001)'? Use org:holds followed by org:postIn. Return its URI.",
+    "question_id": "R5-4b3590c5efe1ceb1212b",
+    "reasoning_depth": 2,
+    "relevant_entities": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001/post-0002/person-0001"
+    ]
+  },
+  {
+    "category": "R5",
+    "category_name": "Cross-relationship reasoning",
+    "method": {
+      "algorithm": "post_owner",
+      "version": 1
+    },
+    "question": "Which organizational unit directly contains the post held by 'Taylor Morgan (org-000001/u0001/u0002/u0002 P0001 E0001)'? Use org:holds followed by org:postIn. Return its URI.",
+    "question_id": "R5-df3ee0150a140cd9af05",
+    "reasoning_depth": 2,
+    "relevant_entities": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002/post-0001/person-0001"
+    ]
+  },
+  {
+    "category": "R5",
+    "category_name": "Cross-relationship reasoning",
+    "method": {
+      "algorithm": "post_owner",
+      "version": 1
+    },
+    "question": "Which organizational unit directly contains the post held by 'Taylor Singh (org-000001/u0001/u0002/u0002 P0002 E0001)'? Use org:holds followed by org:postIn. Return its URI.",
+    "question_id": "R5-c0024280f9a52a9343af",
+    "reasoning_depth": 2,
+    "relevant_entities": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002/post-0002/person-0001"
+    ]
+  },
+  {
+    "category": "R6",
+    "category_name": "Membership inference",
+    "method": {
+      "algorithm": "root_membership",
+      "version": 1
+    },
+    "question": "Under the benchmark membership rule (holds, postIn, then zero or more subOrganizationOf edges), which top-level organization is 'Robin Singh (org-000001/u0001 P0002 E0001)' a member of? Return its URI.",
+    "question_id": "R6-dc34d20099df92a78f63",
+    "reasoning_depth": 3,
+    "relevant_entities": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/post-0002/person-0001"
+    ]
+  },
+  {
+    "category": "R6",
+    "category_name": "Membership inference",
+    "method": {
+      "algorithm": "root_membership",
+      "version": 1
+    },
+    "question": "Under the benchmark membership rule (holds, postIn, then zero or more subOrganizationOf edges), which top-level organization is 'Sam Patel (org-000001/u0001/u0001/u0001 P0001 E0001)' a member of? Return its URI.",
+    "question_id": "R6-91dacf4702a6baa9f629",
+    "reasoning_depth": 5,
+    "relevant_entities": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001/post-0001/person-0001"
+    ]
+  },
+  {
+    "category": "R6",
+    "category_name": "Membership inference",
+    "method": {
+      "algorithm": "root_membership",
+      "version": 1
+    },
+    "question": "Under the benchmark membership rule (holds, postIn, then zero or more subOrganizationOf edges), which top-level organization is 'Taylor Patel (org-000001/u0001/u0001/u0001 P0002 E0001)' a member of? Return its URI.",
+    "question_id": "R6-1c759af6cb395565bd56",
+    "reasoning_depth": 5,
+    "relevant_entities": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001/post-0002/person-0001"
+    ]
+  },
+  {
+    "category": "R7",
+    "category_name": "Enumeration",
+    "method": {
+      "algorithm": "enumerate_posts",
+      "version": 1
+    },
+    "question": "List all post URIs directly belonging to 'Unit org-000001/u0001/u0001/u0001' via org:hasPost.",
+    "question_id": "R7-3a211785db1b6945e2dd",
+    "reasoning_depth": 1,
+    "relevant_entities": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001"
+    ]
+  },
+  {
+    "category": "R7",
+    "category_name": "Enumeration",
+    "method": {
+      "algorithm": "enumerate_posts",
+      "version": 1
+    },
+    "question": "List all post URIs directly belonging to 'Unit org-000001/u0002/u0001' via org:hasPost.",
+    "question_id": "R7-4bfae6f3a6d2188831dc",
+    "reasoning_depth": 1,
+    "relevant_entities": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001"
+    ]
+  },
+  {
+    "category": "R7",
+    "category_name": "Enumeration",
+    "method": {
+      "algorithm": "enumerate_posts",
+      "version": 1
+    },
+    "question": "List all post URIs directly belonging to 'Unit org-000001/u0002/u0002' via org:hasPost.",
+    "question_id": "R7-0b13c6818465f1d71c07",
+    "reasoning_depth": 1,
+    "relevant_entities": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002"
+    ]
+  }
+]

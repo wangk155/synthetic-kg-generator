@@ -1,0 +1,21 @@
+generator:
+  num_organizations: 1
+  max_depth: 3
+  branching_factor: 2
+  posts_per_unit: 2
+  employees_per_post: 1
+  seed: 42
+  num_graphs: 1
+  branching_factor_range: null
+  posts_per_unit_range: null
+  reporting_ancestor_window: 1
+  namespace: https://example.org/synthetic-org/
+  max_entities: 2000000
+output:
+  format: turtle
+  directory: examples/generated
+evaluation:
+  generate_competency_questions: true
+  questions_per_category: 3
+  generate_ground_truth: true
+  shortage_policy: error

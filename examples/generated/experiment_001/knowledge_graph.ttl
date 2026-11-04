@@ -1,0 +1,495 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/post-0001/person-0001> a foaf:Person ;
+    rdfs:label "Robin Singh (org-000001/u0001 P0001 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0001/post-0001> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0001> ;
+    foaf:name "Robin Singh (org-000001/u0001 P0001 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/post-0002/person-0001> a foaf:Person ;
+    rdfs:label "Robin Singh (org-000001/u0001 P0002 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0001/post-0002> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0001> ;
+    foaf:name "Robin Singh (org-000001/u0001 P0002 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/post-0001/person-0001> a foaf:Person ;
+    rdfs:label "Alex Lee (org-000001/u0001/u0001 P0001 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/post-0001> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001> ;
+    foaf:name "Alex Lee (org-000001/u0001/u0001 P0001 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/post-0002/person-0001> a foaf:Person ;
+    rdfs:label "Robin Patel (org-000001/u0001/u0001 P0002 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/post-0002> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001> ;
+    foaf:name "Robin Patel (org-000001/u0001/u0001 P0002 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001/post-0001/person-0001> a foaf:Person ;
+    rdfs:label "Sam Patel (org-000001/u0001/u0001/u0001 P0001 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001/post-0001> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001> ;
+    foaf:name "Sam Patel (org-000001/u0001/u0001/u0001 P0001 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001/post-0002/person-0001> a foaf:Person ;
+    rdfs:label "Taylor Patel (org-000001/u0001/u0001/u0001 P0002 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001/post-0002> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001> ;
+    foaf:name "Taylor Patel (org-000001/u0001/u0001/u0001 P0002 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0002/post-0001/person-0001> a foaf:Person ;
+    rdfs:label "Alex Morgan (org-000001/u0001/u0001/u0002 P0001 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0002/post-0001> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0002> ;
+    foaf:name "Alex Morgan (org-000001/u0001/u0001/u0002 P0001 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0002/post-0002/person-0001> a foaf:Person ;
+    rdfs:label "Casey Chen (org-000001/u0001/u0001/u0002 P0002 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0002/post-0002> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0002> ;
+    foaf:name "Casey Chen (org-000001/u0001/u0001/u0002 P0002 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/post-0001/person-0001> a foaf:Person ;
+    rdfs:label "Alex Singh (org-000001/u0001/u0002 P0001 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/post-0001> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002> ;
+    foaf:name "Alex Singh (org-000001/u0001/u0002 P0001 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/post-0002/person-0001> a foaf:Person ;
+    rdfs:label "Robin Singh (org-000001/u0001/u0002 P0002 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/post-0002> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002> ;
+    foaf:name "Robin Singh (org-000001/u0001/u0002 P0002 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001/post-0001/person-0001> a foaf:Person ;
+    rdfs:label "Sam Chen (org-000001/u0001/u0002/u0001 P0001 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001/post-0001> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001> ;
+    foaf:name "Sam Chen (org-000001/u0001/u0002/u0001 P0001 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001/post-0002/person-0001> a foaf:Person ;
+    rdfs:label "Robin Lee (org-000001/u0001/u0002/u0001 P0002 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001/post-0002> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001> ;
+    foaf:name "Robin Lee (org-000001/u0001/u0002/u0001 P0002 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002/post-0001/person-0001> a foaf:Person ;
+    rdfs:label "Taylor Morgan (org-000001/u0001/u0002/u0002 P0001 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002/post-0001> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002> ;
+    foaf:name "Taylor Morgan (org-000001/u0001/u0002/u0002 P0001 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002/post-0002/person-0001> a foaf:Person ;
+    rdfs:label "Taylor Singh (org-000001/u0001/u0002/u0002 P0002 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002/post-0002> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002> ;
+    foaf:name "Taylor Singh (org-000001/u0001/u0002/u0002 P0002 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/post-0001/person-0001> a foaf:Person ;
+    rdfs:label "Taylor Singh (org-000001/u0002 P0001 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0002/post-0001> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0002> ;
+    foaf:name "Taylor Singh (org-000001/u0002 P0001 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/post-0002/person-0001> a foaf:Person ;
+    rdfs:label "Taylor Singh (org-000001/u0002 P0002 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0002/post-0002> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0002> ;
+    foaf:name "Taylor Singh (org-000001/u0002 P0002 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/post-0001/person-0001> a foaf:Person ;
+    rdfs:label "Jordan Morgan (org-000001/u0002/u0001 P0001 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/post-0001> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001> ;
+    foaf:name "Jordan Morgan (org-000001/u0002/u0001 P0001 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/post-0002/person-0001> a foaf:Person ;
+    rdfs:label "Alex Patel (org-000001/u0002/u0001 P0002 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/post-0002> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001> ;
+    foaf:name "Alex Patel (org-000001/u0002/u0001 P0002 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0001/post-0001/person-0001> a foaf:Person ;
+    rdfs:label "Alex Morgan (org-000001/u0002/u0001/u0001 P0001 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0001/post-0001> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0001> ;
+    foaf:name "Alex Morgan (org-000001/u0002/u0001/u0001 P0001 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0001/post-0002/person-0001> a foaf:Person ;
+    rdfs:label "Robin Chen (org-000001/u0002/u0001/u0001 P0002 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0001/post-0002> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0001> ;
+    foaf:name "Robin Chen (org-000001/u0002/u0001/u0001 P0002 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002/post-0001/person-0001> a foaf:Person ;
+    rdfs:label "Casey Patel (org-000001/u0002/u0001/u0002 P0001 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002/post-0001> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002> ;
+    foaf:name "Casey Patel (org-000001/u0002/u0001/u0002 P0001 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002/post-0002/person-0001> a foaf:Person ;
+    rdfs:label "Sam Lee (org-000001/u0002/u0001/u0002 P0002 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002/post-0002> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002> ;
+    foaf:name "Sam Lee (org-000001/u0002/u0001/u0002 P0002 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/post-0001/person-0001> a foaf:Person ;
+    rdfs:label "Taylor Patel (org-000001/u0002/u0002 P0001 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/post-0001> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002> ;
+    foaf:name "Taylor Patel (org-000001/u0002/u0002 P0001 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/post-0002/person-0001> a foaf:Person ;
+    rdfs:label "Robin Lee (org-000001/u0002/u0002 P0002 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/post-0002> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002> ;
+    foaf:name "Robin Lee (org-000001/u0002/u0002 P0002 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001/post-0001/person-0001> a foaf:Person ;
+    rdfs:label "Casey Ali (org-000001/u0002/u0002/u0001 P0001 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001/post-0001> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001> ;
+    foaf:name "Casey Ali (org-000001/u0002/u0002/u0001 P0001 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001/post-0002/person-0001> a foaf:Person ;
+    rdfs:label "Alex Patel (org-000001/u0002/u0002/u0001 P0002 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001/post-0002> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001> ;
+    foaf:name "Alex Patel (org-000001/u0002/u0002/u0001 P0002 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0002/post-0001/person-0001> a foaf:Person ;
+    rdfs:label "Casey Morgan (org-000001/u0002/u0002/u0002 P0001 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0002/post-0001> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0002> ;
+    foaf:name "Casey Morgan (org-000001/u0002/u0002/u0002 P0001 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0002/post-0002/person-0001> a foaf:Person ;
+    rdfs:label "Alex Patel (org-000001/u0002/u0002/u0002 P0002 E0001)" ;
+    org:holds <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0002/post-0002> ;
+    org:memberOf <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0002> ;
+    foaf:name "Alex Patel (org-000001/u0002/u0002/u0002 P0002 E0001)" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/post-0002> a org:Post ;
+    rdfs:label "Engineer org-000001/u0001 P0002" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0001/post-0002/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0001> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0001/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/engineer> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/post-0002> a org:Post ;
+    rdfs:label "Engineer org-000001/u0001/u0001 P0002" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/post-0002/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/engineer> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001/post-0002> a org:Post ;
+    rdfs:label "Supervisor org-000001/u0001/u0001/u0001 P0002" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001/post-0002/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/supervisor> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0002/post-0002> a org:Post ;
+    rdfs:label "Manager org-000001/u0001/u0001/u0002 P0002" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0002/post-0002/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0002> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0002/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/manager> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/post-0002> a org:Post ;
+    rdfs:label "Analyst org-000001/u0001/u0002 P0002" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/post-0002/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/analyst> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001/post-0002> a org:Post ;
+    rdfs:label "Manager org-000001/u0001/u0002/u0001 P0002" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001/post-0002/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/manager> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002/post-0002> a org:Post ;
+    rdfs:label "Director org-000001/u0001/u0002/u0002 P0002" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002/post-0002/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/director> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/post-0002> a org:Post ;
+    rdfs:label "Supervisor org-000001/u0002 P0002" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0002/post-0002/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0002> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0002/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/supervisor> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/post-0002> a org:Post ;
+    rdfs:label "Manager org-000001/u0002/u0001 P0002" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/post-0002/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/manager> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0001/post-0002> a org:Post ;
+    rdfs:label "Director org-000001/u0002/u0001/u0001 P0002" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0001/post-0002/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0001> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0001/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/director> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002/post-0002> a org:Post ;
+    rdfs:label "Engineer org-000001/u0002/u0001/u0002 P0002" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002/post-0002/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/engineer> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/post-0002> a org:Post ;
+    rdfs:label "Analyst org-000001/u0002/u0002 P0002" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/post-0002/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/analyst> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001/post-0002> a org:Post ;
+    rdfs:label "Manager org-000001/u0002/u0002/u0001 P0002" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001/post-0002/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/manager> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0002/post-0002> a org:Post ;
+    rdfs:label "Engineer org-000001/u0002/u0002/u0002 P0002" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0002/post-0002/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0002> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0002/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/engineer> .
+
+<https://example.org/synthetic-org/graph-42/role/analyst> a org:Role ;
+    rdfs:label "Analyst" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001/post-0001> a org:Post ;
+    rdfs:label "Supervisor org-000001/u0001/u0001/u0001 P0001" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001/post-0001/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/supervisor> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0002/post-0001> a org:Post ;
+    rdfs:label "Supervisor org-000001/u0001/u0001/u0002 P0001" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0002/post-0001/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0002> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/supervisor> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001/post-0001> a org:Post ;
+    rdfs:label "Supervisor org-000001/u0001/u0002/u0001 P0001" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001/post-0001/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/supervisor> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002/post-0001> a org:Post ;
+    rdfs:label "Supervisor org-000001/u0001/u0002/u0002 P0001" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002/post-0001/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/supervisor> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0001/post-0001> a org:Post ;
+    rdfs:label "Supervisor org-000001/u0002/u0001/u0001 P0001" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0001/post-0001/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0001> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/supervisor> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002/post-0001> a org:Post ;
+    rdfs:label "Supervisor org-000001/u0002/u0001/u0002 P0001" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002/post-0001/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/supervisor> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001/post-0001> a org:Post ;
+    rdfs:label "Supervisor org-000001/u0002/u0002/u0001 P0001" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001/post-0001/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/supervisor> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0002/post-0001> a org:Post ;
+    rdfs:label "Supervisor org-000001/u0002/u0002/u0002 P0001" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0002/post-0001/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0002> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/supervisor> .
+
+<https://example.org/synthetic-org/graph-42/org-000001> a org:FormalOrganization ;
+    rdfs:label "Organization 000001" ;
+    org:hasUnit <https://example.org/synthetic-org/graph-42/org-000001/u0001>,
+        <https://example.org/synthetic-org/graph-42/org-000001/u0002> .
+
+<https://example.org/synthetic-org/graph-42/role/director> a org:Role ;
+    rdfs:label "Director" .
+
+<https://example.org/synthetic-org/graph-42/role/engineer> a org:Role ;
+    rdfs:label "Engineer" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/post-0001> a org:Post ;
+    rdfs:label "Director org-000001/u0001 P0001" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0001/post-0001/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/director> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/post-0001> a org:Post ;
+    rdfs:label "Manager org-000001/u0001/u0001 P0001" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/post-0001/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0001/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/manager> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001> a org:OrganizationalUnit ;
+    rdfs:label "Unit org-000001/u0001/u0001/u0001" ;
+    org:hasPost <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001/post-0001>,
+        <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001/post-0002> ;
+    org:subOrganizationOf <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001> ;
+    org:unitOf <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0002> a org:OrganizationalUnit ;
+    rdfs:label "Unit org-000001/u0001/u0001/u0002" ;
+    org:hasPost <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0002/post-0001>,
+        <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0002/post-0002> ;
+    org:subOrganizationOf <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001> ;
+    org:unitOf <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/post-0001> a org:Post ;
+    rdfs:label "Manager org-000001/u0001/u0002 P0001" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/post-0001/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0001/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/manager> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001> a org:OrganizationalUnit ;
+    rdfs:label "Unit org-000001/u0001/u0002/u0001" ;
+    org:hasPost <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001/post-0001>,
+        <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001/post-0002> ;
+    org:subOrganizationOf <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002> ;
+    org:unitOf <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002> a org:OrganizationalUnit ;
+    rdfs:label "Unit org-000001/u0001/u0002/u0002" ;
+    org:hasPost <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002/post-0001>,
+        <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002/post-0002> ;
+    org:subOrganizationOf <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002> ;
+    org:unitOf <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/post-0001> a org:Post ;
+    rdfs:label "Director org-000001/u0002 P0001" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0002/post-0001/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0002> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/director> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/post-0001> a org:Post ;
+    rdfs:label "Manager org-000001/u0002/u0001 P0001" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/post-0001/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0002/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/manager> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0001> a org:OrganizationalUnit ;
+    rdfs:label "Unit org-000001/u0002/u0001/u0001" ;
+    org:hasPost <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0001/post-0001>,
+        <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0001/post-0002> ;
+    org:subOrganizationOf <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001> ;
+    org:unitOf <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002> a org:OrganizationalUnit ;
+    rdfs:label "Unit org-000001/u0002/u0001/u0002" ;
+    org:hasPost <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002/post-0001>,
+        <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002/post-0002> ;
+    org:subOrganizationOf <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001> ;
+    org:unitOf <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/post-0001> a org:Post ;
+    rdfs:label "Manager org-000001/u0002/u0002 P0001" ;
+    org:heldBy <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/post-0001/person-0001> ;
+    org:postIn <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002> ;
+    org:reportsTo <https://example.org/synthetic-org/graph-42/org-000001/u0002/post-0001> ;
+    org:role <https://example.org/synthetic-org/graph-42/role/manager> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001> a org:OrganizationalUnit ;
+    rdfs:label "Unit org-000001/u0002/u0002/u0001" ;
+    org:hasPost <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001/post-0001>,
+        <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001/post-0002> ;
+    org:subOrganizationOf <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002> ;
+    org:unitOf <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0002> a org:OrganizationalUnit ;
+    rdfs:label "Unit org-000001/u0002/u0002/u0002" ;
+    org:hasPost <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0002/post-0001>,
+        <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0002/post-0002> ;
+    org:subOrganizationOf <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002> ;
+    org:unitOf <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002> .
+
+<https://example.org/synthetic-org/graph-42/role/manager> a org:Role ;
+    rdfs:label "Manager" .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001> a org:OrganizationalUnit ;
+    rdfs:label "Unit org-000001/u0001" ;
+    org:hasPost <https://example.org/synthetic-org/graph-42/org-000001/u0001/post-0001>,
+        <https://example.org/synthetic-org/graph-42/org-000001/u0001/post-0002> ;
+    org:hasUnit <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001>,
+        <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002> ;
+    org:subOrganizationOf <https://example.org/synthetic-org/graph-42/org-000001> ;
+    org:unitOf <https://example.org/synthetic-org/graph-42/org-000001> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001> a org:OrganizationalUnit ;
+    rdfs:label "Unit org-000001/u0001/u0001" ;
+    org:hasPost <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/post-0001>,
+        <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/post-0002> ;
+    org:hasUnit <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001>,
+        <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0002> ;
+    org:subOrganizationOf <https://example.org/synthetic-org/graph-42/org-000001/u0001> ;
+    org:unitOf <https://example.org/synthetic-org/graph-42/org-000001/u0001> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002> a org:OrganizationalUnit ;
+    rdfs:label "Unit org-000001/u0001/u0002" ;
+    org:hasPost <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/post-0001>,
+        <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/post-0002> ;
+    org:hasUnit <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001>,
+        <https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002> ;
+    org:subOrganizationOf <https://example.org/synthetic-org/graph-42/org-000001/u0001> ;
+    org:unitOf <https://example.org/synthetic-org/graph-42/org-000001/u0001> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002> a org:OrganizationalUnit ;
+    rdfs:label "Unit org-000001/u0002" ;
+    org:hasPost <https://example.org/synthetic-org/graph-42/org-000001/u0002/post-0001>,
+        <https://example.org/synthetic-org/graph-42/org-000001/u0002/post-0002> ;
+    org:hasUnit <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001>,
+        <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002> ;
+    org:subOrganizationOf <https://example.org/synthetic-org/graph-42/org-000001> ;
+    org:unitOf <https://example.org/synthetic-org/graph-42/org-000001> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001> a org:OrganizationalUnit ;
+    rdfs:label "Unit org-000001/u0002/u0001" ;
+    org:hasPost <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/post-0001>,
+        <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/post-0002> ;
+    org:hasUnit <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0001>,
+        <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002> ;
+    org:subOrganizationOf <https://example.org/synthetic-org/graph-42/org-000001/u0002> ;
+    org:unitOf <https://example.org/synthetic-org/graph-42/org-000001/u0002> .
+
+<https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002> a org:OrganizationalUnit ;
+    rdfs:label "Unit org-000001/u0002/u0002" ;
+    org:hasPost <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/post-0001>,
+        <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/post-0002> ;
+    org:hasUnit <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001>,
+        <https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0002> ;
+    org:subOrganizationOf <https://example.org/synthetic-org/graph-42/org-000001/u0002> ;
+    org:unitOf <https://example.org/synthetic-org/graph-42/org-000001/u0002> .
+
+<https://example.org/synthetic-org/graph-42/role/supervisor> a org:Role ;
+    rdfs:label "Supervisor" .

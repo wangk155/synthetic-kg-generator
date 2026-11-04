@@ -1,0 +1,551 @@
+{
+  "R1-20dff2c06971666b33fe": {
+    "algorithm": "direct_holders",
+    "algorithm_version": 1,
+    "answer": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/post-0001/person-0001"
+    ],
+    "hop_count": 1,
+    "relationship_paths": [
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/post-0001",
+          "http://www.w3.org/ns/org#heldBy",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/post-0001/person-0001"
+        ]
+      ]
+    ]
+  },
+  "R1-3c1b94a4bd2829382e39": {
+    "algorithm": "direct_holders",
+    "algorithm_version": 1,
+    "answer": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002/post-0002/person-0001"
+    ],
+    "hop_count": 1,
+    "relationship_paths": [
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002/post-0002",
+          "http://www.w3.org/ns/org#heldBy",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002/post-0002/person-0001"
+        ]
+      ]
+    ]
+  },
+  "R1-de66afa610999b2b1fd2": {
+    "algorithm": "direct_holders",
+    "algorithm_version": 1,
+    "answer": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/post-0001/person-0001"
+    ],
+    "hop_count": 1,
+    "relationship_paths": [
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/post-0001",
+          "http://www.w3.org/ns/org#heldBy",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/post-0001/person-0001"
+        ]
+      ]
+    ]
+  },
+  "R2-5beb467394045546ef28": {
+    "algorithm": "indirect_containment",
+    "algorithm_version": 1,
+    "answer": true,
+    "hop_count": 3,
+    "relationship_paths": [
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0002",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001"
+        ]
+      ]
+    ]
+  },
+  "R2-ccd851d21d8c1008ff9c": {
+    "algorithm": "indirect_containment",
+    "algorithm_version": 1,
+    "answer": true,
+    "hop_count": 3,
+    "relationship_paths": [
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001"
+        ]
+      ]
+    ]
+  },
+  "R2-ef4b5e75f02128544fe4": {
+    "algorithm": "indirect_containment",
+    "algorithm_version": 1,
+    "answer": true,
+    "hop_count": 2,
+    "relationship_paths": [
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001"
+        ]
+      ]
+    ]
+  },
+  "R3-3212c1ef32fc7b57e5cc": {
+    "algorithm": "reporting_path",
+    "algorithm_version": 1,
+    "answer": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001/post-0002",
+      "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001/post-0001",
+      "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/post-0001",
+      "https://example.org/synthetic-org/graph-42/org-000001/u0002/post-0001"
+    ],
+    "hop_count": 4,
+    "relationship_paths": [
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001/post-0002/person-0001",
+          "http://www.w3.org/ns/org#holds",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001/post-0002"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001/post-0002",
+          "http://www.w3.org/ns/org#reportsTo",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001/post-0001"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001/post-0001",
+          "http://www.w3.org/ns/org#reportsTo",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/post-0001"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/post-0001",
+          "http://www.w3.org/ns/org#reportsTo",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/post-0001"
+        ]
+      ]
+    ]
+  },
+  "R3-60fb2481ebfd228a5a4f": {
+    "algorithm": "reporting_path",
+    "algorithm_version": 1,
+    "answer": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002/post-0001",
+      "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/post-0001",
+      "https://example.org/synthetic-org/graph-42/org-000001/u0002/post-0001"
+    ],
+    "hop_count": 3,
+    "relationship_paths": [
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002/post-0001/person-0001",
+          "http://www.w3.org/ns/org#holds",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002/post-0001"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/u0002/post-0001",
+          "http://www.w3.org/ns/org#reportsTo",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/post-0001"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/post-0001",
+          "http://www.w3.org/ns/org#reportsTo",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/post-0001"
+        ]
+      ]
+    ]
+  },
+  "R3-67c3b25450b2b35acd85": {
+    "algorithm": "reporting_path",
+    "algorithm_version": 1,
+    "answer": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001/post-0002",
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001/post-0001",
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/post-0001",
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/post-0001"
+    ],
+    "hop_count": 4,
+    "relationship_paths": [
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001/post-0002/person-0001",
+          "http://www.w3.org/ns/org#holds",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001/post-0002"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001/post-0002",
+          "http://www.w3.org/ns/org#reportsTo",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001/post-0001"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001/post-0001",
+          "http://www.w3.org/ns/org#reportsTo",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/post-0001"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/post-0001",
+          "http://www.w3.org/ns/org#reportsTo",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/post-0001"
+        ]
+      ]
+    ]
+  },
+  "R4-16b5faf1766bec24f755": {
+    "algorithm": "closest_common_unit",
+    "algorithm_version": 1,
+    "answer": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0002"
+    ],
+    "hop_count": 3,
+    "relationship_paths": [
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002"
+        ]
+      ],
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0002",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002"
+        ]
+      ]
+    ]
+  },
+  "R4-2395bd7a78063dd8c442": {
+    "algorithm": "closest_common_unit",
+    "algorithm_version": 1,
+    "answer": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001"
+    ],
+    "hop_count": 4,
+    "relationship_paths": [
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001"
+        ]
+      ],
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001"
+        ]
+      ]
+    ]
+  },
+  "R4-d1f398bdeaadcf9b44ce": {
+    "algorithm": "closest_common_unit",
+    "algorithm_version": 1,
+    "answer": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002"
+    ],
+    "hop_count": 2,
+    "relationship_paths": [
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0001",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002"
+        ]
+      ],
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/u0002",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002"
+        ]
+      ]
+    ]
+  },
+  "R5-4b3590c5efe1ceb1212b": {
+    "algorithm": "post_owner",
+    "algorithm_version": 1,
+    "answer": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001"
+    ],
+    "hop_count": 2,
+    "relationship_paths": [
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001/post-0002/person-0001",
+          "http://www.w3.org/ns/org#holds",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001/post-0002"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001/post-0002",
+          "http://www.w3.org/ns/org#postIn",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0001"
+        ]
+      ]
+    ]
+  },
+  "R5-c0024280f9a52a9343af": {
+    "algorithm": "post_owner",
+    "algorithm_version": 1,
+    "answer": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002"
+    ],
+    "hop_count": 2,
+    "relationship_paths": [
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002/post-0002/person-0001",
+          "http://www.w3.org/ns/org#holds",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002/post-0002"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002/post-0002",
+          "http://www.w3.org/ns/org#postIn",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002"
+        ]
+      ]
+    ]
+  },
+  "R5-df3ee0150a140cd9af05": {
+    "algorithm": "post_owner",
+    "algorithm_version": 1,
+    "answer": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002"
+    ],
+    "hop_count": 2,
+    "relationship_paths": [
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002/post-0001/person-0001",
+          "http://www.w3.org/ns/org#holds",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002/post-0001"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002/post-0001",
+          "http://www.w3.org/ns/org#postIn",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0002/u0002"
+        ]
+      ]
+    ]
+  },
+  "R6-1c759af6cb395565bd56": {
+    "algorithm": "root_membership",
+    "algorithm_version": 1,
+    "answer": [
+      "https://example.org/synthetic-org/graph-42/org-000001"
+    ],
+    "hop_count": 5,
+    "relationship_paths": [
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001/post-0002/person-0001",
+          "http://www.w3.org/ns/org#holds",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001/post-0002"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001/post-0002",
+          "http://www.w3.org/ns/org#postIn",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001"
+        ]
+      ]
+    ]
+  },
+  "R6-91dacf4702a6baa9f629": {
+    "algorithm": "root_membership",
+    "algorithm_version": 1,
+    "answer": [
+      "https://example.org/synthetic-org/graph-42/org-000001"
+    ],
+    "hop_count": 5,
+    "relationship_paths": [
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001/post-0001/person-0001",
+          "http://www.w3.org/ns/org#holds",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001/post-0001"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001/post-0001",
+          "http://www.w3.org/ns/org#postIn",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001"
+        ]
+      ]
+    ]
+  },
+  "R6-dc34d20099df92a78f63": {
+    "algorithm": "root_membership",
+    "algorithm_version": 1,
+    "answer": [
+      "https://example.org/synthetic-org/graph-42/org-000001"
+    ],
+    "hop_count": 3,
+    "relationship_paths": [
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/post-0002/person-0001",
+          "http://www.w3.org/ns/org#holds",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/post-0002"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/post-0002",
+          "http://www.w3.org/ns/org#postIn",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001"
+        ],
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001",
+          "http://www.w3.org/ns/org#subOrganizationOf",
+          "https://example.org/synthetic-org/graph-42/org-000001"
+        ]
+      ]
+    ]
+  },
+  "R7-0b13c6818465f1d71c07": {
+    "algorithm": "enumerate_posts",
+    "algorithm_version": 1,
+    "answer": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/post-0001",
+      "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/post-0002"
+    ],
+    "hop_count": 1,
+    "relationship_paths": [
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002",
+          "http://www.w3.org/ns/org#hasPost",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/post-0001"
+        ]
+      ],
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002",
+          "http://www.w3.org/ns/org#hasPost",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0002/post-0002"
+        ]
+      ]
+    ]
+  },
+  "R7-3a211785db1b6945e2dd": {
+    "algorithm": "enumerate_posts",
+    "algorithm_version": 1,
+    "answer": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001/post-0001",
+      "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001/post-0002"
+    ],
+    "hop_count": 1,
+    "relationship_paths": [
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001",
+          "http://www.w3.org/ns/org#hasPost",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001/post-0001"
+        ]
+      ],
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001",
+          "http://www.w3.org/ns/org#hasPost",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0001/u0001/u0001/post-0002"
+        ]
+      ]
+    ]
+  },
+  "R7-4bfae6f3a6d2188831dc": {
+    "algorithm": "enumerate_posts",
+    "algorithm_version": 1,
+    "answer": [
+      "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/post-0001",
+      "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/post-0002"
+    ],
+    "hop_count": 1,
+    "relationship_paths": [
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001",
+          "http://www.w3.org/ns/org#hasPost",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/post-0001"
+        ]
+      ],
+      [
+        [
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001",
+          "http://www.w3.org/ns/org#hasPost",
+          "https://example.org/synthetic-org/graph-42/org-000001/u0002/u0001/post-0002"
+        ]
+      ]
+    ]
+  }
+}
